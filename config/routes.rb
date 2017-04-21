@@ -13,6 +13,7 @@ root 'jobs#index'
       post :publish
       post :hide
     end
+    resources :resumes 
 end
   end
 
